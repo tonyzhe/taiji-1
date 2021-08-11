@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#taiji {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  word-break: break-all;
+}
+@media (max-width: 500px) {
+  #html {
+    height: 50vh;
+    overflow: auto;
+  }
+  #taijiWrapper {
+    height: 50vh;
+  }
+  #taiji {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin-top: 50px; */
+  }
+}
+
+/*# sourceMappingURL=index.5952072d.css.map */
